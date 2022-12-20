@@ -1,0 +1,751 @@
+/*Stjerne --> * <-- påvirker alt indhold på siden*/
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-style:normal;
+ font-weight: lighter;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ list-style: none;
+ }
+
+
+ /*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+ /*FORSIDE MOBIL*/
+
+ /*Styling af Mobile Container*/ 
+ .mobile-container {
+ min-width: 480px;
+ background-color:rgb(232, 227, 221);
+ color: rgb(91, 89, 89);
+ }
+
+ /*Forside / Mobil - Styling af Header*/
+ .headerbillede {
+ left: 0px;
+ right: 0px;}
+ 
+ .headerbilledet {
+ border: 1px solid rgb(122, 122, 122);
+ width: 100%;
+ }
+
+ .h1forside {
+ font-size: 200%;
+ margin-top: -30px;
+ margin-bottom: 8px;
+ color:rgb(91, 89, 89);
+   text-align: center;
+ }
+
+ .headercontent {
+ text-align: center;
+ color: white;
+ background-color:rgb(174, 183, 174);
+ padding-bottom: 30px;
+ padding-right: 25%;
+ padding-left: 25%;
+ text-align: justify;
+ }
+
+ .ikon-nav {
+  width: 20px;
+  margin-bottom: -3px;
+ }
+
+
+ /*Forside / Mobil - Styling af Produkter*/
+ .h2forside {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  color: rgb(129, 138, 129);
+ }
+
+ .forsideprodukter {
+  padding-left: 25%;
+  padding-right: 25%;
+ }
+
+ .produktbillede {
+  margin-top: 5px;
+  margin: 5px;
+  border: 1px solid rgb(148, 147, 147);
+  width: 100%;
+ }
+
+
+ /*Forside / Mobil - Styling af Infographic*/
+ .infographic1 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  }
+
+
+ /*Forside / Mobil - Styling af Anmeldelse*/
+ .anmeldelse-billede {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  gap: 1.5rem;
+  margin: 0 auto;
+  align-items: center;  
+  margin-bottom: 15%;
+  }  
+  
+ .anmeldelsekasse1 {
+  align-items: center;
+ }
+
+ .anmeldelseoverskrift {
+ color: rgb(129, 138, 129);
+ align-items: center;
+ margin-bottom: 5%;
+ }
+
+ .anmeldelsetekst {
+  align-items: center;
+ }
+
+ .anmeldelsebillede {
+  border: 1px solid rgb(148, 147, 147);
+  width: 100%;
+ }
+
+
+ /*Forside / Mobil - Styling af Footer*/
+ .footeroverskrift {
+  font-weight: 350;
+  color: #ffffff;
+ }
+
+ .footertekst {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 0 20px;
+  color: #ffffff;
+ }
+
+ .footertekst1 {
+ margin-bottom: 5px;
+ text-align: center;
+ color: #ffffff;
+ }
+
+ .footertekst1:hover {
+  color: #5B5959;
+  }
+ 
+
+  /*Forside / Mobil - Styling af Certificeringer*/
+  .ecocertikon {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: #AEB7AE;
+ }
+
+ .ecocertikon img {
+  width: 50%;
+ }
+
+
+
+
+
+ /*PRODUKT UNDERSIDE MOBIL*/ 
+
+ /*Produkt-side / Mobil - Styling af Navigationsbar*/
+ .nav1 {
+ background-color: rgb(232, 227, 221);
+ }
+
+
+ /*Produkt-side / Mobil - Styling af Header*/
+
+ .hudplejebillede {
+ padding-left: 25%;
+ padding-right: 25%;
+ }
+
+ .hudplejebillede1 {
+ width: 100%;
+ height: 400px;
+ object-fit: cover;
+ margin-top: 10%;
+ margin-bottom: 50px;
+ border: 1px solid rgb(148, 147, 147);
+ justify-content: center;
+
+ }
+
+ .headercontentproduktside {
+  text-align: center;
+  padding-right: 25%;
+  padding-left: 25%;
+  text-align: justify;
+  margin-bottom: 10%;
+ }
+
+ .h1produktside {
+  font-size: 200%;
+  margin-top: -30px;
+  margin-bottom: 15px;
+  color:rgb(129, 138, 129);
+  text-align: center;
+ }
+
+
+ .produktheadertekst {
+  font-size: 120%;
+ }
+
+
+ /*Produkt-side / Mobil - Styling af Produkter*/
+ .h2produktside {
+  font-size: 200%;
+  text-align: center;
+  color:rgb(129, 138, 129);
+ }
+
+ .undersideprodukter {
+  padding-left: 25%;
+  padding-right: 25%;
+ }
+
+
+ .produktbillede2 {
+  border: 1px solid rgb(148, 147, 147);
+  width: 100%;
+ }
+
+ .produktsideh3 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 140%;
+ }
+
+ .produktsidep {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+ }
+
+
+ /*Produkt-side / Mobil - Styling af Infographic*/
+ .infographic2 {
+ margin-top: 10%;
+ margin-bottom: 10%;
+ padding-left: 10%;
+ padding-right: 10%;
+ }
+
+
+
+ 
+ /*OM OS UNDERSIDE MOBIL*/
+
+ /*Omos-underside / Mobil - Styling af Overskrift + Tekst*/
+ .h1omos {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 250%;
+  color:rgb(129, 138, 129);
+  font-weight: 300;
+ }
+
+
+ /*Omos-underside / Mobil - Styling af Artikler*/
+ .om-os-artikler {
+ padding-left: 10%;
+ padding-right: 10%;
+ padding-top: 10%;
+ }
+
+ .om-osh3 {
+ font-size: 200%;
+ margin-bottom: 10px; 
+ margin-top: 50px; 
+ color: rgb(129, 138, 129);
+ text-align: center;
+ }
+
+ .om-osp {
+ margin-top: 20px;
+ margin-bottom: 20px;
+ text-align: center;
+ }
+
+ .footeromos {
+  background-color: #AEB7AE;
+  padding-top: 30px;
+  padding-bottom: 30px;
+ }
+
+ .omos-billede {
+  border: 1px solid rgb(148, 147, 147);
+ }
+
+ .omos-billede {
+  display: none;
+  }
+
+ .omos-billede-mobil {
+  width: 100%;
+ }
+
+
+
+
+
+
+ /*KONTAKT OS UNDERSIDE MOBIL*/ 
+
+ /*Kontakt-side / Mobil - Styling af Billede + Tekst*/ 
+
+ .kontaktbillede {
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 5%;
+ }
+
+ .h1kontakt {
+ text-align: center;
+ margin-top: 50px;
+ margin-bottom: 15px;
+ color: rgb(129, 138, 129);
+ font-size: 150%;
+ }
+   
+
+ .kontakttekst {
+ text-align: center;
+ padding-bottom: 40px;
+ padding-right: 25%;
+ padding-left: 25%;
+ text-align: justify;
+ position: relative;
+ }
+
+ .lasmere {
+ text-decoration: none;
+ color: rgb(148, 147, 147);
+ padding-left: 45%;
+ 
+ }
+
+ .hudplejebillede5 {
+ border: 1px solid rgb(148, 147, 147);
+ margin-bottom: 5px;
+ width: 100%;
+ }
+
+
+  
+
+
+
+ /*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+ /*Breakpoint 1 tablet*/
+ @media screen and (min-width: 768px) 
+ {
+
+ /*FORSIDE TABLET*/
+/*Forside / Tablet - Styling af Produkter*/ 
+ .h2forside {
+ margin-top: 80px;
+ }
+  
+ .forsideprodukter {
+  margin-bottom: 30px;
+ }
+
+
+ /*Forside / Tablet - Styling Anmeldelse*/ 
+ .anmeldelsekasse1 {
+ padding-left: 15%;
+ padding-right: 15%;
+ }
+ 
+ /*HUDPLEJE OG HÅRPLEJE UNDERSIDE TABLET*/
+
+ /*Produktside / Tablet - Styling af Header*/ 
+ .hudplejebillede1 {
+ height: 500px;
+ }
+
+ .footer {
+  background-color: #AEB7AE;
+  padding-top: 30px;
+  padding-bottom: 30px;
+ }
+
+ }
+
+
+ /*-----------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+ /*Breakpoint 2 Laptop 1024*/
+ @media screen and (min-width: 1024px) 
+ {
+
+ /*FORSIDE LAPTOP*/
+
+ /*Forside / Laptop - Styling af Mobile Container*/
+ .mobile-container {
+ font-size:x-large; 
+ }
+
+ /*Forside / Laptop - Styling af Header*/
+ .h1forside {
+   font-size: 250%;
+ }
+ 
+
+ /*Forside / Laptop - Styling af Produkter*/
+ .h2forside {
+ margin-top: 10%;
+ }
+
+ .forsideprodukter {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ width: 100%;
+ gap: 1.5rem;
+ align-items: center;
+ padding: 0; 
+ padding-right: 20px;
+ padding-left: 10px;
+ }
+
+ .produktbillede {
+ width: 100%;
+ height: 300px;
+ object-fit: cover;
+ }
+
+
+ /*Forside / Laptop - Styling af Anmeldelse*/
+ .anmeldelse {
+ margin-bottom: 10%;
+ margin-top: 10%;
+ }
+
+ .anmeldelse-billede {
+ margin-bottom: 10%;
+  }  
+  
+
+
+ /*Forside / Laptop - Styling af Footer*/
+ .footer {
+ display:flex;
+ justify-content: center;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ gap: 2rem;
+ background-color: #AEB7AE;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ }
+
+
+
+
+
+ /*PRODUKTSIDE LAPTOP*/
+
+ /*Produktside / Laptop - Styling af Produktbillede*/
+ .hudplejebillede1 {
+ height: 600px;
+ }
+
+ .undersideprodukter {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ width: 100%;
+ gap: 1.5rem;
+ align-items: center;
+ padding: 0; 
+ padding-right: 10px;
+ padding-left: 10px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ background-color: rgb(174, 183, 174);
+ }
+ 
+ .produktbillede2 {
+ width: 100%;
+ height: 300px;
+ object-fit: cover;
+ }
+
+
+
+ 
+
+ /*OM OS LAPTOP*/
+
+ /*Om-Os / Laptop - Styling af Artikler*/
+ .om-os-artikler {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ width: 90%;
+ gap: 1.5rem;
+ margin: 0 auto;
+ align-items: center;  
+ margin-bottom: 10%;
+ justify-content: center;
+ }  
+    
+ .undersideprodukt {
+ align-items: center;
+ }
+
+  
+ .omosh3 {
+ align-items: center;
+ margin-bottom: 10px;
+ }
+  
+ .om-osp {
+ align-items: center;
+ }
+
+ .omos-billede {
+ width: 100%;
+ height: 200px;
+ display: flex;
+ }
+
+ .omos-billede-mobil {
+  display: none;
+  }
+
+ .artikel .omos-billede {
+ border: none;
+ }
+
+ /*KONTAKT-SIDE LAPTOP*/
+
+ /*Kontaktside / Laptop - Styling af Tekst*/
+ .kontakttekst {
+ text-align: center;
+ margin-bottom: 50px;
+ margin-top: 25px;
+ padding-right: 25%;
+ padding-left: 25%;
+ text-align: justify;
+ }
+
+
+ /*Kontakt-side / Laptop - Styling af billede*/
+ .kontaktbillede {
+ padding-left: 25%;
+ padding-right: 25%;
+ }
+  
+  
+ /*Kontakt-side / Laptop - Styling Infographic*/
+ .infographic1 {
+ padding-left: 15%;
+ padding-right: 15%;
+ }
+  
+ 
+ /*Kontakt-side / Laptop - Styling af Sektion*/ 
+ .kontaktos {
+ margin-top: 100px;
+ margin-bottom: 100px;
+ }
+
+ 
+ 
+
+ }
+
+ /*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+ /*FORSIDE - Breakpoint Desktop 1200*/
+ @media screen and (min-width: 1200px) 
+ { 
+
+ /*FORSIDE DESKTOP*/
+
+ /*Forside / Desktop - Styling af Produkter*/
+ .produktbillede {
+ width: 100%;
+ height: 400px;
+ object-fit: cover;
+ }
+
+   
+ /*Forside / Desktop - Styling af Anmeldelse*/
+ .anmeldelse {
+ margin-top: 5%;
+ }
+
+ .anmeldelsekasse1 {
+ padding-left: 20%;
+ padding-right: 20%;
+ }
+
+ .anmeldelsebillede {
+ width: 100%;
+ height: 750px;
+ object-fit: cover;
+ } 
+
+
+
+
+
+ /*PRODUKTSIDE DESKTOP*/
+
+ /*Produktside / Desktop - Styling af Produktbilleder*/
+ .hudplejebillede1 {
+ height: 700px;
+ }
+
+ .produktbillede2 {
+ width: 100%;
+ height: 400px;
+ object-fit: cover;
+ }
+
+
+
+
+
+ /*OM OS DESKTOP*/
+
+ /*Omos-side / Desktop - Styling af billeder*/
+ .omos-billede {
+ width: 100%;
+ height: 300px;
+ display: flex;
+ }
+
+ omos-billede-mobil {
+ display: none;
+ }
+
+ .artikel .omos-billede {
+ border: none;
+ }
+
+ }
+
+ /*RESPONSIV MENU */
+ /* RESPONSIVE NAV*/
+ header {
+ background-color: #AEB7AE;
+ }
+
+ li {
+ list-style: none;
+ }
+
+ .navbar {
+ min-height: 70px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0 24px;
+ }
+
+ .nav-menu {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 45px;
+ }
+
+ .logo {
+ width: 175px;
+ vertical-align: middle;
+ }
+
+ .nav-link {
+ font-size: 20px;
+ transition: 0.7s ease;
+ color: #ffffff;
+ text-decoration: none;
+ }
+
+ .nav-link:hover {
+ color: #5B5959;
+ }
+
+ .hamburger {
+ display: none;
+ cursor: pointer;
+ }
+
+ .bar {
+ display: block;
+ width: 25px;
+ height: 3px;
+ margin: 5px auto;
+ -webkit-transition: all 0.3s ease-in-out;
+ transition: all 0.3s ease-in-out;
+ background-color: #ffffff;
+ }
+
+ @media(max-width:768px) {
+ .logo {
+ width: 150px;
+ }
+  
+ .hamburger {
+    display: block;
+ }
+
+ .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+ }
+
+ .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+ }
+
+ .hamburger.active .bar:nth-child(3) {
+ transform: translateY(-8px) rotate(-45deg);
+ }
+
+ .nav-menu {
+ position: fixed;
+ right: -100%;
+ top: 70px;
+ gap: 0;
+ flex-direction: column;
+ background-color: #AEB7AE;
+ width: 100%;
+ text-align: center;
+ transition: 0.3s;
+ }
+
+ .nav-item {
+ margin: 16px 0;
+ }
+
+ .nav-menu.active {
+ right: 0;
+ }
+
+ .footer {
+ background-color: #AEB7AE;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ }
+
+ }
+
+ /*-----------------------------------------------------------------------------------------------------------------------------------------*/
